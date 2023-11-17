@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="icon" href="./img/icon.png">
-    <link rel="image_src" href="./img/icon.gif" />
-    <title>PetAmigo - Adoção</title>
 
-    <style>
-      .wrapper {
-        position: relative;
-        overflow: hidden;
-      }
-      .wrapper:after {
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="icon" href="./img/icon.png">
+  <link rel="image_src" href="./img/icon.gif" />
+  <title>PetAmigo - Adoção</title>
+
+  <style>
+    .wrapper {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .wrapper:after {
       content: '';
       display: block;
       padding-top: 100%;
     }
 
-     .wrapper img {
+    .wrapper img {
       width: auto;
       height: 100%;
       max-width: none;
@@ -30,199 +33,239 @@
       top: 0;
       transform: translateX(-50%);
     }
-    </style>
-  </head>
-  <body>
-    <header>        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">🐶 PetAmigo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
-                aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="textoNavbar">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="adocao.html">Adoção <span class="sr-only">(Página atual)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="doacao.html">Doação</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
-                    🐶 🐱 🐭 🐹 🐰 🦊 🐻 🐼 🐻‍❄️ 🐨 🐯 🦁 🐮 🐷  🐸 🐵 🙈 🙉 🙊  🐔 🐧 🐦 🐤 🐣  🦆 🦅 🦉 🦇 🐺 🐗 🐴  🐝 🐛 🦋  🐜 🦟 🦗 🕷  🐢 🐍  🦑 🦐  🦀 🐡 🐠  🐬  🐋 🦈 🐊 🐅 🐆 🦓   🐘  🦏 🐪 🐫 🦒 🦘 🐃 🐂 🐄 🐎 🐖 🐏 🐐  🐩  🐕 🐈 🐓  🦚 🦜 🦢 🦩  🐇 🦝 🦨    🐁   🦔 
-                </span>
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">🐶 PetAmigo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+        aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="textoNavbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="adocao.html">Adoção <span class="sr-only">(Página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="doacao.html">Doação</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          🐶 🐱 🐭 🐹 🐰 🦊 🐻 🐼 🐻‍❄️ 🐨 🐯 🦁 🐮 🐷 🐸 🐵 🙈 🙉 🙊 🐔 🐧 🐦 🐤 🐣 🦆 🦅 🦉 🦇 🐺 🐗 🐴 🐝 🐛 🦋 🐜 🦟
+          🦗 🕷 🐢 🐍 🦑 🦐 🦀 🐡 🐠 🐬 🐋 🦈 🐊 🐅 🐆 🦓 🐘 🦏 🐪 🐫 🦒 🦘 🐃 🐂 🐄 🐎 🐖 🐏 🐐 🐩 🐕 🐈 🐓 🦚 🦜 🦢 🦩
+          🐇 🦝 🦨 🐁 🦔
+        </span>
+      </div>
+    </nav>
+  </header>
+  <main role="main">
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="wrapper">
+                <img class="card-img-top img-fluid" alt="Imagem do Pitoco" src="./img/pitoco_caramelo.webp">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Pitoco - Tenho apenas 1 aninho, sou um caramelo muito amoroso esperando por um
+                  tutor.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                  </div>
+                </div>
+              </div>
             </div>
-        </nav>
-    </header>
-    <main role="main">
-        <div class="album py-5 bg-light">
-          <div class="container">  
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="wrapper">
-                    <img class="card-img-top img-fluid" alt="Imagem do Pitoco" src="./img/pitoco_caramelo.webp">
-                  </div>                  
-                  <div class="card-body">
-                    <p class="card-text">Pitoco - Tenho apenas 1 aninho, sou um caramelo muito amoroso esperando por um tutor.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                      </div>
-                    </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="wrapper">
+                <img class="card-img-top img-fluid" alt="Imagem da Mila" src="./img/mila_chihuahua.webp">
+              </div>
+              <div class="card-body">
+                <p class="card-text"></p>
+                <p class="card-text">Mila - Estou pronta para trazer alegria para você, sou uma Chihuahua com 2 aninhos.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="wrapper">
-                    <img class="card-img-top img-fluid" alt="Imagem da Mila" src="./img/mila_chihuahua.webp">
-                  </div>
-                  <div class="card-body">
-                    <p class="card-text"></p>
-                    <p class="card-text">Mila - Estou pronta para trazer alegria para você, sou uma Chihuahua com 2 aninhos.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                      </div>
-                    </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="wrapper">
+                <img class="card-img-top img-fluid" alt="Imagem da Lady" src="./img/lady_cat.webp">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Lady - Sou uma gatinha dócil, com muito amor para dar, castrada, estou com 8 meses.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="wrapper">
-                    <img class="card-img-top img-fluid" alt="Imagem da Lady" src="./img/lady_cat.webp">
-                  </div>
-                  <div class="card-body">
-                    <p class="card-text">Lady - Sou uma gatinha dócil, com muito amor para dar, castrada, estou com 8 meses.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                      </div>
-                    </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="wrapper">
+                <img class="card-img-top img-fluid" alt="Imagem do Spike" src="./img/spike_carente.webp">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Spike - Estou muito carente à procura de um tutor, sou um amorzinho, com a
+                  vacinação em dia e estou com 1 ano e meio.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
                   </div>
                 </div>
               </div>
-  
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="wrapper">
-                    <img class="card-img-top img-fluid" alt="Imagem do Spike" src="./img/spike_carente.webp">
-                  </div>
-                  <div class="card-body">
-                    <p class="card-text">Spike - Estou muito carente à procura de um tutor, sou um amorzinho, com a vacinação em dia e estou com 1 ano e meio.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                      </div>
-                    </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="wrapper">
+                <img class="card-img-top img-fluid" alt="Imagem do Toby" src="./img/Toby.webp">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Toby - Sou um cãozinho espoleta, muito atencioso, vacinado, estou com 10 meses,
+                  prometo me comportar.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="wrapper">
-                    <img class="card-img-top img-fluid" alt="Imagem do Toby" src="./img/Toby.webp">
-                  </div>
-                  <div class="card-body">
-                    <p class="card-text">Toby - Sou um cãozinho espoleta, muito atencioso, vacinado, estou com 10 meses, prometo me comportar.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                      </div>
-                    </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="wrapper">
+                <img class="card-img-top img-fluid" alt="Imagem do Luke" src="./img/luke.webp">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Luke - Tenho 1 aninho, sou um chicletinho com os humanos, muito brincalhão e adoro
+                  passeios, me leva?</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="wrapper">
-                    <img class="card-img-top img-fluid" alt="Imagem do Luke" src="./img/luke.webp">
-                  </div>
-                  <div class="card-body">
-                    <p class="card-text">Luke - Tenho 1 aninho, sou um chicletinho com os humanos, muito brincalhão e adoro passeios, me leva?</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                      </div>
-                    </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="wrapper">
+                <img class="card-img-top img-fluid" alt="Imagem da Athena" src="./img/athena.webp">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Athena - Estou com 8 meses ainda, tenho muito a aprender ainda com meu futuro tutor
+                  e estou castrada.
+                  .</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
                   </div>
                 </div>
               </div>
-  
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="wrapper">
-                    <img class="card-img-top img-fluid" alt="Imagem da Athena" src="./img/athena.webp">
-                  </div>
-                  <div class="card-body">
-                    <p class="card-text">Athena - Estou com 8 meses ainda, tenho muito a aprender ainda com meu futuro tutor e estou castrada.
-.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                      </div>
-                    </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="wrapper">
+                <img class="card-img-top img-fluid" alt="Imagem da Luna" src="./img/luna_gata.webp">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Luna - Sou uma gatinha muito esperta e a procura de alguém para me adotar, estou
+                  castrada, tenho 2 aninhos.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="wrapper">
-                    <img class="card-img-top img-fluid" alt="Imagem da Luna" src="./img/luna_gata.webp">
-                  </div>
-                  <div class="card-body">
-                    <p class="card-text">Luna - Sou uma gatinha muito esperta e a procura de alguém para me adotar, estou castrada, tenho 2 aninhos.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <div class="wrapper">
+                <img class="card-img-top img-fluid" alt="Imagem do Snoop" src="./img/snoop.jpg">
               </div>
-              <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                  <div class="wrapper">
-                    <img class="card-img-top img-fluid" alt="Imagem do Snoop" src="./img/snoop.jpg">
-                  </div>
-                  <div class="card-body">
-                    <p class="card-text">Snoop - Prometo ser um amorzinho e não causar confusão, só quero um tutor, tenho 2 aninhos, já estou vacinado e castrado.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
-                      </div>
-                    </div>
+              <div class="card-body">
+                <p class="card-text">Snoop - Prometo ser um amorzinho e não causar confusão, só quero um tutor, tenho 2
+                  aninhos, já estou vacinado e castrado.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <hr class="featurette-divider">
-      </main>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+  </main>
 
-      <footer class="container">
-        <p class="float-right"><a href="#">Voltar ao topo</a></p>
-        <p>© PetAmigo - 2023 <br>👨‍💻 Feito por <a href="https://github.com/IsaquePemasi/PetAmigo/graphs/contributors/">Grupo 32
-        </a>
-        </p>
-    </footer>
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+  <footer class="container">
+    <p class="float-right"><a href="#">Voltar ao topo</a></p>
+    <p>© PetAmigo - 2023 <br>👨‍💻 Feito por <a
+        href="https://github.com/IsaquePemasi/PetAmigo/graphs/contributors/">Grupo 32
+      </a>
+    </p>
+  </footer>
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <script>
+
+    localStorage.setItem('animaisAdoacao', '[]');
+    function verInfoAdocao(nomePet, raca, descricao) {
+      // Criando o objeto JSON com as informações do pet selecionado
+      const dadosAdocao = {
+        "nomePet": nomePet,
+        "raca": raca,
+        "descricao": descricao
+      };
+
+      let animaisAdocao = localStorage.getItem('animaisDoacao');
+      animaisAdocao = JSON.parse(animaisAdocao);
+      animaisAdocao.push(dadosAdocao);
+      animaisAdocao = JSON.stringify(animaisDoacao);
+      localStorage.setItem('animaisAdocao', animaisAdocao);
+    };
+  </script>
+
+</body>
+
 </html>
