@@ -1,5 +1,4 @@
-<h1>:file_cabinet: PetAmigo</h1>
-https://pet-amigo-pink.vercel.app/
+<h1 align=center> PetAmigo</h1>
 
 <h2>:memo: Descrição</h1>
   <p>Uma plataforma online para mediar o processo de adoção e doação de animais de estimação.</p>
@@ -16,8 +15,8 @@ Doação: Os usuários podem cadastrar e criar um perfil de seus animais para ad
 <p>CSS</p>
 <p>JavaScript</p>
 
-<h2>:rocket: Rodando o projeto</h1>
--
+<h2>:rocket: O projeto</h1>
+https://pet-amigo-pink.vercel.app/
 
 <h2>:handshake: Autores</h2>
 <a href="https://github.com/IsaquePemasi/"><img src="https://avatars.githubusercontent.com/u/76749511?v=4" width=115></a>
