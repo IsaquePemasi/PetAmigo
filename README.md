@@ -1,4 +1,4 @@
-<h1 align=center> PetAmigo</h1>
+<h1 align=center> <img src="./img/icon.png" width=30> PetAmigo</h1>
 
 <h2>:memo: Descrição</h1>
   <p>Uma plataforma online para mediar o processo de adoção e doação de animais de estimação.</p>
