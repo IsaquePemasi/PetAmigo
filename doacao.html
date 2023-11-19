@@ -41,96 +41,99 @@
   </header>
 
   <main>
-    <form>
-      <div class="form-row">
-        <div class="col-md-4 mb-3">
-          <label for="validationServer01">Nome do Pet</label>
-          <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Nome" value="Rex"
-            required>
-          <div class="valid-feedback">
-            Tudo certo!
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <label for="validationServer02">Raça</label>
-          <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Sobrenome"
-            value="Viralata Caramelo" required>
-          <div class="valid-feedback">
-            Tudo certo!
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <label for="validationServerUsername">Usuário</label>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="inputGroupPrepend3">@</span>
-            </div>
-            <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Usuário"
-              aria-describedby="inputGroupPrepend3" required>
-            <div class="invalid-feedback">
-              Por favor, escolha um nome de usuário.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
-          Cachorro
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
-          Gato
-        </label>
-      </div>
+    <section class="container p-4">
       <form>
-        <div class="form-group">
-          <label for="exampleFormControlFile1">👇 Escolha uma imagem do seu Pet</label>
-          <input type="file" class="form-control-file" id="exampleFormControlFile1">
-        </div>
-      </form>
-      <div class="form-row">
-        <div class="col-md-6 mb-3">
-          <label for="validationServer03">Cidade</label>
-          <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Cidade" required>
-          <div class="invalid-feedback">
-            Por favor, informe uma cidade válida.
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationServer01">Nome do Pet</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Nome" value="Rex"
+              required>
+            <div class="valid-feedback">
+              Tudo certo!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServer02">Raça</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Sobrenome"
+              value="Viralata Caramelo" required>
+            <div class="valid-feedback">
+              Tudo certo!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationServerUsername">Usuário</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+              </div>
+              <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Usuário"
+                aria-describedby="inputGroupPrepend3" required>
+              <div class="invalid-feedback">
+                Por favor, escolha um nome de usuário.
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-3 mb-3">
-          <label for="validationServer04">Estado</label>
-          <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Estado" required>
-          <div class="invalid-feedback">
-            Por favor, informe um estado válido.
-          </div>
-        </div>
-        <div class="col-md-3 mb-3">
-          <label for="validationServer05">CEP</label>
-          <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="CEP" required>
-          <div class="invalid-feedback">
-            Por favor, informe um CEP válido.
-          </div>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Descrição</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <div class="form-group">
         <div class="form-check">
-          <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-          <label class="form-check-label" for="invalidCheck3">
-            Concordo com os termos e condições
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Cachorro
           </label>
-          <div class="invalid-feedback">
-            Você deve concordar, antes de continuar.
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Gato
+          </label>
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlFile1">👇 Escolha uma imagem do seu Pet</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+        </form>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationServer03">Cidade</label>
+            <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Cidade" required>
+            <div class="invalid-feedback">
+              Por favor, informe uma cidade válida.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationServer04">Estado</label>
+            <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Estado" required>
+            <div class="invalid-feedback">
+              Por favor, informe um estado válido.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationServer05">CEP</label>
+            <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="CEP" required>
+            <div class="invalid-feedback">
+              Por favor, informe um CEP válido.
+            </div>
           </div>
         </div>
-      </div>
-      <button class="btn btn-primary" type="button" onclick="enviarFormulario()">Enviar</button>
-    </form>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Descrição</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+            <label class="form-check-label" for="invalidCheck3">
+              Concordo com os termos e condições
+            </label>
+            <div class="invalid-feedback">
+              Você deve concordar, antes de continuar.
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="button" onclick="enviarFormulario()">Enviar</button>
+      </form>
+
+    </section>
     <hr class="featurette-divider">
   </main>
 
